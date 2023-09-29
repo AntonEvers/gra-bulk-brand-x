@@ -452,6 +452,7 @@ return [
         'Magento_GiftCardGraphQl' => 1,
         'AntonEvers_GraOne' => 1,
         'AntonEvers_GraTwo' => 1,
+        'AntonEvers_Local' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1
