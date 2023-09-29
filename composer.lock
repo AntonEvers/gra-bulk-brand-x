@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28e91bb02e0eb9a909838d85c80b9d12",
+    "content-hash": "3385b23e0ddd682f756fbf5cfc6cd309",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -83,6 +83,41 @@
             },
             "type": "metapackage",
             "description": "Metapackage contains references to Adobe Commerce Extensions"
+        },
+        {
+            "name": "antonevers/gra-bulk-foundation",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AntonEvers/gra-bulk-foundation.git",
+                "reference": "fef6bee7bfec52825849a1ec003a84c6a1561a5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AntonEvers/gra-bulk-foundation/zipball/fef6bee7bfec52825849a1ec003a84c6a1561a5f",
+                "reference": "fef6bee7bfec52825849a1ec003a84c6a1561a5f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Shared code repository",
+            "support": {
+                "source": "https://github.com/AntonEvers/gra-bulk-foundation/tree/main",
+                "issues": "https://github.com/AntonEvers/gra-bulk-foundation/issues"
+            },
+            "time": "2023-09-29T11:49:33+00:00"
         },
         {
             "name": "astock/stock-api-libphp",
@@ -31114,10 +31149,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "antonevers/gra-bulk-foundation": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
